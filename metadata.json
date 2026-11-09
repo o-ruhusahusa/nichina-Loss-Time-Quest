@@ -1,0 +1,6 @@
+{
+  "name": "日南ロスタイム・クエスト",
+  "description": "電車の待ち時間を楽しい冒険に変える、宮崎県日南市のローカルクエスト＆ポイント交換アプリ",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

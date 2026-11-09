@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-warm: #FFF9F2;
+    --coral-primary: #FF6B6B;
+    --coral-dark: #FF5252;
+    --mint-accent: #4ECDC4;
+    --mint-border: #3CBFB6;
+    --border-warm: #FFE0D1;
+    --gold-pill: #FFE066;
+    --gold-border: #FFCC00;
+    --orange-soft: #FFF4E5;
+    --orange-border: #FFD3A3;
+    --text-dark: #2D3436;
+  }
+
+  body {
+    font-family: 'Zen Maru Gothic', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--bg-warm);
+    color: var(--text-dark);
+  }
+}
+
+/* Tactile 3D buttons from Vibrant Palette */
+.btn-vibrant-mint {
+  background-color: #4ECDC4;
+  border-bottom: 4px solid #3CBFB6;
+  transition: all 0.15s ease-in-out;
+}
+.btn-vibrant-mint:hover {
+  transform: scale(0.98);
+}
+.btn-vibrant-mint:active {
+  border-bottom-width: 0px;
+  transform: translateY(4px);
+}
+
+.btn-vibrant-coral {
+  background-color: #FF6B6B;
+  border-bottom: 4px solid #E25555;
+  transition: all 0.15s ease-in-out;
+}
+.btn-vibrant-coral:hover {
+  background-color: #FF5252;
+  transform: scale(0.98);
+}
+.btn-vibrant-coral:active {
+  border-bottom-width: 0px;
+  transform: translateY(4px);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFE0D1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FFB7A1;
+}
